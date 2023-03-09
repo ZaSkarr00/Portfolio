@@ -1,134 +1,126 @@
 body{
     height: 100%;
-    width: 100%;
+    width: 99%;
     background-image: url(vs-code-logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
-header{
+.totu{
+    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
     display: flex;
     align-items: center;
-    color: white;
+    justify-content: left;
+}
+header{
     background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
-    position: absolute;
-    left: 0px;
-    width: 198vh;
-    padding-left: 30px;
-}
-h1{
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 3%;
-    color: white;
-    font-size: 45px;
-}
-.lien0{
-    position: absolute;
-    left: 34vh;
-    top: 0px;
-    text-decoration: none;
     display: flex;
-    color: white;
-    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-:hover.lien0{
-    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
-}
-.lien1{
-    position: absolute;
-    left: 45vh;
-    top: 0px;
-    text-decoration: none;
-    display: flex;
-    color: white;
-    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-:hover.lien1{
-    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
-}
-.lien2{
-    position: absolute;
-    left: 54vh;
-    top: 0px;
+    align-items: center;
+    justify-content: left;
+  }
+  a{
     text-decoration: none;
     color: white;
-    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-:hover.lien2{
-    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
-}
-.lien3{
-    position: absolute;
-    top: 0px;
-    left: 62vh;
-    text-decoration: none;
+  }
+  :hover.liens{
+    text-decoration: underline;
+    color: white;
+  }
+  .lien0{
     color: white;
     background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 24px;
+    padding-top: 25px;
     padding-bottom: 25px;
-}
-:hover.lien3{
+  }
+  :hover.lien0{
+    text-decoration: underline;
+    color: white;
     background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
-}
-.lien4{
-    position: absolute;
-    left: 70vh;
-    top: 0px;
-    text-decoration: none;
-    display: flex;
+  }
+  .lien1{
     color: white;
     background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  :hover.lien1{
+    text-decoration: underline;
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
+  }
+  .lien2{
+    color: white;
+    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  :hover.lien2{
+    text-decoration: underline;
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
+  }
+  .lien3{
+    color: white;
+    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  :hover.lien3{
+    text-decoration: underline;
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
+  }
+  .lien4{
+    color: white;
+    background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
     padding-bottom: 25px;
   }
   :hover.lien4{
+    text-decoration: underline;
+    color: white;
     background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
   }
   .lien5{
-    position: absolute;
-    left: 83vh;
-    top: 0px;
-    text-decoration: none;
-    display: flex;
     color: white;
     background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 24px;
+    padding-top: 25px;
     padding-bottom: 25px;
   }
   :hover.lien5{
+    text-decoration: underline;
+    color: white;
     background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
   }
   .lien6{
-    position: absolute;
-    left: 106vh;
-    top: 0px;
-    text-decoration: none;
-    display: flex;
     color: white;
     background: linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 24px;
+    padding-top: 25px;
     padding-bottom: 25px;
   }
   :hover.lien6{
+    text-decoration: underline;
+    color: white;
     background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20), rgb(0, 0, 0));
   }
+.chepa{
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
