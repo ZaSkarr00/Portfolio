@@ -119,6 +119,7 @@ p {
 .cyb {
   width: 1100px;
 }
+
 .cyber{
   display: flex;
   justify-content: center;
@@ -129,5 +130,10 @@ p {
   height: auto;
   text-align: center;
   margin-left: 10%;
-  border-radius: 15px
+  border: solid;
+}
+
+.slam, .sisr, .cyb{
+  border: solid;
+  margin: 5px;
 }
