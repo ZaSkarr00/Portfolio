@@ -126,6 +126,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 3%;
+    border-radius: 15px;
 }
 
 input {
