@@ -130,13 +130,13 @@ p {
   text-align: center;
   margin-left: 10%;
   border: solid;
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .slam, .sisr, .cyb{
   border: solid;
   margin: 5px;
-    border-radius: 15px;
+  border-radius: 15px;
 }
 hr {
   width: 700px;
