@@ -126,10 +126,12 @@ p {
   height: auto;
   border: solid;
   margin: 5px;
+    border-radius: 15px;
 }
 .learn {
   width: 1100px;
   border: solid;
+    border-radius: 15px;
 }
 .machin{
   display: flex;
